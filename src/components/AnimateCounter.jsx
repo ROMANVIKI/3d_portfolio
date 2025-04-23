@@ -9,7 +9,7 @@ const AnimateCounter = () => {
         {counterItems.map((item) => (
           <div className="bg-zinc-900 rounded-lg -10 flex flex-col justify-center">
             <div
-              key={counterItems.label}
+              key={counterItems.value}
               className="counter-number text-white text-5xl font-bold mb-2"
             >
               <CountUp end={item.value} suffix={item.suffix} />

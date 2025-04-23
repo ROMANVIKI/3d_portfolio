@@ -5,6 +5,7 @@ import HeroExperience from "../components/HeroModels/HeroExperience.jsx";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import AnimateCounter from "../components/AnimateCounter.jsx";
+import ShowcaseSection from "../sections/ShowcaseSection.jsx";
 
 const Hero = () => {
   useGSAP(() => {
